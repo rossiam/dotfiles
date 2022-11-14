@@ -1,0 +1,22 @@
+[core]
+	pager = cat
+	editor = vi
+	#pager = less -F -X
+
+[alias]
+	co = checkout
+	s = status
+	a = add
+	b = branch
+	d = diff
+	l = log
+
+[user]
+	name = Ross Stenersen
+	email = rossiam@gmail.com
+
+[pull]
+	ff = only
+
+[init]
+	defaultBranch = main
