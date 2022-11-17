@@ -39,8 +39,8 @@ disabled = true
 threshold = 70
 
 [character]
-success_symbol = "[➜](bold green) "
-error_symbol = "[✗](bold red) "
+success_symbol = "[➜](bold green)"
+error_symbol = "[✗](bold red)"
 
 [cmd_duration]
 
@@ -78,14 +78,15 @@ deleted_style = 'purple bold'
 format = '([$all_status$ahead_behind]($style) )'
 style = 'purple bold'
 
+[memory_usage]
+threshold = 80
+disabled = false
+
 [nodejs]
 format = " [$symbol($version )]($style)"
 
 [package]
 disabled = true
-
-[memory_usage]
-disabled = false
 
 
 
