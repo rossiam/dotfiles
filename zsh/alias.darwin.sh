@@ -2,3 +2,5 @@ alias railcore='/Applications/Original\ Prusa\ Drivers/PrusaSlicer.app/Contents/
 alias prusa='/Applications/Original\ Prusa\ Drivers/PrusaSlicer.app/Contents/MacOS/PrusaSlicer -datadir /Users/rossiam/Dropbox/Documents/hacking/prusa_slicer_profiles/PrusaSlicer'
 #alias green='/Applications/Original\ Prusa\ Drivers/PrusaSlicer.app/Contents/MacOS/PrusaSlicer -datadir /Users/rossiam/Dropbox/Documents/hacking/green_lantern/PrusaSlicer'
 alias green='/Applications/SuperSlicer.app/Contents/MacOS/SuperSlicer -datadir /Users/rossiam/Dropbox/Documents/hacking/green_lantern/rusaSlicer'
+
+alias vcmc="vi ${HOME}/Library/Caches/@smartthings/cli/config-managed.yaml"
