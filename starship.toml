@@ -36,7 +36,7 @@ disabled = true
 [battery]
 
 [[battery.display]]
-threshold = 70
+threshold = 65
 
 [character]
 success_symbol = "[➜](bold green)"

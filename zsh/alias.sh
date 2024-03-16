@@ -8,6 +8,16 @@ function vifb() {
     vi $(find . -name $1 -print)
 }
 
+function gw() {
+    if [[ -f "./gradlew" ]]; then
+        ./gradlew "$@"
+    elif [[ -f "../gradlew" ]]; then
+        ../gradlew "$@"
+    fi
+}
+# alias gw=./gradlew
+# alias .gw=../gradlew
+
 alias st="echo no alias set yet"
 function sta() {
     if [ "$#" -eq 1 ]
