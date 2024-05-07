@@ -11,4 +11,5 @@ alias blue='/Applications/Original\ Prusa\ Drivers/PrusaSlicer.app/Contents/MacO
 alias vcc="vi ${HOME}/.config/@smartthings/cli/config.yaml"
 alias vcmc="vi ${HOME}/Library/Caches/@smartthings/cli/config-managed.yaml"
 
-alias sty='ts-node ~/dev/cli/smartthings-cli/dist/run.js'
+alias sty='ts-node ~/dev/cli/smartthings-cli/dist/src/run.js'
+alias styy='ts-node ~/dev/cli/no-fork/smartthings-cli/dist/src/run.js'

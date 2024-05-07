@@ -33,6 +33,7 @@ function sta() {
 }
 function stv() {
 	alias st=~/bin/st-$1
+    echo "st aliased to ~/bin/st-$1"
 	# alias st=~/bin/st-beta.$1
 }
 alias vcc="vi ~/.config/@smartthings/cli/config.yaml"
