@@ -38,6 +38,8 @@ function stv() {
 }
 alias vcc="vi ~/.config/@smartthings/cli/config.yaml"
 
+alias pn=pnpm
+
 alias nrc="npm run compile"
 alias nrb="npm run build"
 alias nrw="npm run watch"
