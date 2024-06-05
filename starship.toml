@@ -1,37 +1,36 @@
 # "$schema" = 'https://starship.rs/config-schema.json'
 
 # format = "$directory$fill$env_var$character"
-# with line break
-# format = """\
-# $env_var\
-# $directory\
-# $fill\
-# $git_branch\
-# $git_commit\
-# $git_state\
-# $git_metrics\
-# $git_status\
-# $fill\
-# $all\
-# $line_break\
-# $character"""
-
-# without line break
+# with line break (change line_break.disabled below too)
 format = """\
+$all\
 $env_var\
-$directory\
 $git_branch\
 $git_commit\
 $git_state\
 $git_metrics\
 $git_status\
-$all\
+$line_break\
+$directory\
 $character"""
+# $fill\
+
+# without line break (change line_break.disabled below too)
+# format = """\
+# $env_var\
+# $directory\
+# $git_branch\
+# $git_commit\
+# $git_state\
+# $git_metrics\
+# $git_status\
+# $all\
+# $character"""
 
 add_newline = false
 
 [line_break]
-disabled = true
+disabled = false
 
 [battery]
 
