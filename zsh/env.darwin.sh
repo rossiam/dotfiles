@@ -6,3 +6,5 @@ export OPENSCAD_DEST=${HOME}/Dropbox/stuff_to_print
 export OPENSCADPATH=${HOME}/Dropbox/Documents/hacking/openscad/lib
 
 export PICO_SDK_PATH=/Users/rossiam/dev/pico/pico-sdk
+
+export PATH="${PATH}:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
