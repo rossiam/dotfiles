@@ -50,8 +50,8 @@ alias nrtc="npm run test-coverage"
 
 alias amj='ts-node ~/dev/all-my-junk/cli/bin/run.js'
 # alias backup_amj_galileo='rsync -uavz --delete -e ssh ~/dev/all-my-junk galileo:~/amj-backup/ --exclude-from ~/rsync_exclude.txt'
-alias backup_amj_dropbox='rsync -uav --delete ~/dev/all-my-junk ~/Dropbox/Backup/ --exclude-from ~/rsync_exclude.txt'
+alias backup_amj_tresorit='rsync -uav --delete ~/dev/all-my-junk ~/Tresorit/Backup/ --exclude-from ~/rsync_exclude.txt'
 # alias backup_amj_turing='rsync -uavz --delete -e ssh ~/dev/all-my-junk turing:~/amj-backup/ --exclude-from ~/rsync_exclude.txt'
-alias pull_amj_from_dropbox='rsync -uav --delete ~/Dropbox/Backup/all-my-junk ~/dev --exclude-from ~/rsync_exclude.txt'
+alias pull_amj_from_tresorit='rsync -uav --delete ~/Tresorit/Backup/all-my-junk ~/dev --exclude-from ~/rsync_exclude.txt'
 
 alias use_node='. ~/.nvm/nvm.sh && unalias use_node'
