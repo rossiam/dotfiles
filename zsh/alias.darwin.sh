@@ -3,6 +3,7 @@ alias railcore='/Applications/Original\ Prusa\ Drivers/PrusaSlicer.app/Contents/
 alias mk3='/Applications/Original\ Prusa\ Drivers/PrusaSlicer.app/Contents/MacOS/PrusaSlicer -datadir /Users/rossiam/Tresorit/Documents/hacking/prusa_slicer_profiles/PrusaSlicer_MK3'
 alias mk4='/Applications/Original\ Prusa\ Drivers/PrusaSlicer.app/Contents/MacOS/PrusaSlicer -datadir /Users/rossiam/Tresorit/Documents/hacking/prusa_slicer_profiles/PrusaSlicer_MK4'
 alias xl='/Applications/Original\ Prusa\ Drivers/PrusaSlicer.app/Contents/MacOS/PrusaSlicer -datadir /Users/rossiam/Tresorit/Documents/hacking/prusa_slicer_profiles/PrusaSlicer_XL'
+alias xl-old='/Applications/Original\ Prusa\ Drivers/PrusaSlicer.app/Contents/MacOS/PrusaSlicer -datadir /Users/rossiam/Tresorit/Documents/hacking/prusa_slicer_profiles/PrusaSlicer_XL-old'
 alias cocoa='/Applications/Original\ Prusa\ Drivers/PrusaSlicer.app/Contents/MacOS/PrusaSlicer -datadir /Users/rossiam/Tresorit/Documents/hacking/prusa_slicer_profiles/CocoaPress'
 #alias green='/Applications/Original\ Prusa\ Drivers/PrusaSlicer.app/Contents/MacOS/PrusaSlicer -datadir /Users/rossiam/Tresorit/Documents/hacking/green_lantern/PrusaSlicer'
 alias green='/Applications/SuperSlicer.app/Contents/MacOS/SuperSlicer -datadir /Users/rossiam/Tresorit/Documents/hacking/green_lantern/rusaSlicer'
