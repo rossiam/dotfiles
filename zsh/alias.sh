@@ -37,8 +37,14 @@ function stv() {
 	# alias st=~/bin/st-beta.$1
 }
 function stp() {
-    printf "\e]1337;SetBadgeFormat=%s\a" $(echo -n "$1" | base64)
-    export SMARTTHINGS_PROFILE=$1
+    if [[ "$1" == "default" || "$1" == "prod" ]]
+    then
+        printf "\e]1337;SetBadgeFormat=%s\a"
+        unset SMARTTHINGS_PROFILE
+    else
+        printf "\e]1337;SetBadgeFormat=%s\a" $(echo -n "$1" | base64)
+        export SMARTTHINGS_PROFILE=$1
+    fi
 }
 alias vcc="vi ~/.config/@smartthings/cli/config.yaml"
 
