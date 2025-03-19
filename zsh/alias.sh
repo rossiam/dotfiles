@@ -37,7 +37,7 @@ function stv() {
 	# alias st=~/bin/st-beta.$1
 }
 function stp() {
-    if [[ "$1" == "default" || "$1" == "prod" ]]
+    if [[ "$1" == "default" ]]
     then
         printf "\e]1337;SetBadgeFormat=%s\a"
         unset SMARTTHINGS_PROFILE
