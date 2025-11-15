@@ -4,3 +4,10 @@
 . ${HOME}/dotfiles/zsh/env.darwin.sh
 . ${HOME}/dotfiles/zsh/alias.sh
 . ${HOME}/dotfiles/zsh/alias.darwin.sh
+
+# include this on Linux
+
+. ${HOME}/dotfiles/zsh/config.sh
+. ${HOME}/dotfiles/zsh/env.linux.sh
+. ${HOME}/dotfiles/zsh/alias.sh
+. ${HOME}/dotfiles/zsh/alias.linux.sh
