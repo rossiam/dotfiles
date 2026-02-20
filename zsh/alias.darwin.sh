@@ -13,7 +13,3 @@ alias vcc="vi ${HOME}/.config/@smartthings/cli/config.yaml"
 alias vcmc="vi ${HOME}/Library/Caches/@smartthings/cli/config-managed.yaml"
 alias yvcc="vi ${HOME}/Library/Preferences/@smartthings/cli/config.yaml"
 alias yvcmc="vi ${HOME}/Library/Application\ Support/@smartthings/cli/config-managed.yaml"
-
-alias sty='ts-node ~/dev/cli/smartthings-cli/dist/src/run.js'
-alias sty2='ts-node ~/dev/cli2/smartthings-cli/dist/src/run.js'
-alias styy='ts-node ~/dev/no-fork/smartthings-cli/dist/src/run.js'

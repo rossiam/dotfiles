@@ -19,7 +19,8 @@ function gw() {
 # alias .gw=../gradlew
 
 alias st="echo no alias set yet"
-function sta() {
+# old version of `sta` for oclif versions of CLI
+function sto() {
     if [ "$#" -eq 1 ]
     then
         alias st=~/dev/$1/smartthings-cli/packages/cli/bin/run
@@ -28,6 +29,16 @@ function sta() {
     else
         alias st=~/dev/cli/smartthings-cli/packages/cli/bin/run
         alias dst=~/dev/cli/smartthings-cli/packages/cli/bin/devrun
+        cd ~/dev/cli/smartthings-cli
+    fi
+}
+function sta() {
+    if [ "$#" -eq 1 ]
+    then
+        alias st="tsx ~/dev/$1/cli/smartthings-cli/dist/src/run.js"
+        cd ~/dev/$1/smartthings-cli
+    else
+        alias st="tsx ~/dev/cli/smartthings-cli/dist/src/run.js"
         cd ~/dev/cli/smartthings-cli
     fi
 }
@@ -47,8 +58,6 @@ function stp() {
     fi
 }
 alias vcc="vi ~/.config/@smartthings/cli/config.yaml"
-
-alias pn=pnpm
 
 alias nrc="npm run compile"
 alias nrb="npm run build"
