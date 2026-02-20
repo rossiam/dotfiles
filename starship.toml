@@ -29,6 +29,8 @@ $character"""
 
 add_newline = false
 
+command_timeout=1000
+
 [line_break]
 disabled = false
 
