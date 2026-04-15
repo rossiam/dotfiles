@@ -71,3 +71,4 @@ linkFile vimrc
 linkFile starship.toml config
 linkFileDirect alacritty.yaml "$HOME/.config/alacritty.yml"
 linkFile tmux.conf
+linkFile wezterm.lua
